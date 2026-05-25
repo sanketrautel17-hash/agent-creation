@@ -1,0 +1,39 @@
+# ── Python ────────────────────────────────────────────────
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────
+backend/.venv/
+.venv/
+venv/
+env/
+
+# ── Environment files ─────────────────────────────────────
+backend/.env
+**/.env
+# (keep .env.example files — do NOT ignore those)
+
+# ── Log files ─────────────────────────────────────────────
+*.log
+*.log.*
+logs/
+
+# ── Frontend / Node ───────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+
+# ── OS / Editor ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+

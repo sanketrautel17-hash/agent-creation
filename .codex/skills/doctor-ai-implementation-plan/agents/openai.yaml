@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doctor AI Plan"
+  short_description: "Implement the invite-only doctor AI app"
+  default_prompt: "Use $doctor-ai-implementation-plan to implement the invite-only React and FastAPI doctor AI app in the current workspace."

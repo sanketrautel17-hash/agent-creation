@@ -1,0 +1,22 @@
+# ── Virtual environments ──────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python cache ──────────────────────────────────────────
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+*.egg-info/
+
+# ── Log files ─────────────────────────────────────────────
+*.log
+*.log.*
+logs/
+
+# ── Environment files ─────────────────────────────────────
+.env
+# (keep .env.example files)
+
